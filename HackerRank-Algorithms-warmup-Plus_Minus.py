@@ -9,7 +9,7 @@ def plus_Minus(arr):
             neg_arr += 1
         elif arr[i] == 0:
             zero_arr += 1
-
+    # .6f is used to print the result with 6 decimal digits 
     print(format(float(pos_arr)/float(len(arr)) , '.6f'))
     print(format(float(neg_arr)/float(len(arr)), '.6f'))
     print(format(float(zero_arr)/float(len(arr)), '.6f'))
