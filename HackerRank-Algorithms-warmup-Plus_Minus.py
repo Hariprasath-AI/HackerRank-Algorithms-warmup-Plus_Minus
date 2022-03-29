@@ -21,4 +21,5 @@ if __name__ == '__main__':
     # array/list contains n number of elements
     arr = list(map(int, input().split()))
 
+    # pass the parameter 'arr' to the function 'plus_Minus to get the result
     plus_Minus(arr)
